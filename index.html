@@ -8,6 +8,7 @@
 </head>
 <body>
     <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/javascript.js"></script>
     <script src="./js/quantity.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
     <div class="countainer">
@@ -18,12 +19,42 @@
                 Produtos
                 <div class="product">
                     Produto 1
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity" id="1"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="product">
                     Produto 2
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity"  id="2"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="product">
                     Produto 3
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity"  id="3"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,31 +64,52 @@
                 Produtos
                 <div class="product">
                     Produto 1
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity"  id="4"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="product">
                     Produto 2
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity"  id="5"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="product">
                     Produto 3
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number"
+                               step="1" min="0" max=""
+                               name="quantity"  id="6"
+                               value="0" title="Qty"
+                               class="input-text qty text" size="4"
+                               pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="data">
             Dados Pessoais
         </div>
-        <button>Calcular</button>
+        <button onclick="calc()">Calcular</button>
         <div class="result">
             Resultado
         </div>
     </div>
-    <!--<div class="quantity buttons_added">
-        <input type="button" value="-" class="minus">
-        <input type="number"
-               step="1" min="1" max=""
-               name="quantity" value="1" title="Qty"
-               class="input-text qty text" size="4"
-               pattern="" inputmode="">
-        <input type="button" value="+" class="plus">
-    </div>-->
 </body>
 </html>
