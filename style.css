@@ -1,3 +1,23 @@
+body{
+    background-color: #C5C1C0;
+}
+
+.countainer{
+    background-color: #FFFFFF;
+}
+
+.category{
+    background-color: #F5F5F5;
+}
+
+.btn{
+    background-color: #0069D9;
+}
+
+.price{
+    color: #437525;
+}
+
 /* -- quantity box -- */
 
 .quantity {
