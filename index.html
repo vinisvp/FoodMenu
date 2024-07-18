@@ -12,13 +12,14 @@
     <script src="./js/quantity.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
     <div class="countainer">
-        Banner
+        <h1>Menu - Faça A Sua Escolha</h1>
         <div class="category">
-            Categoria 1
+            <h3>Prato Principal</h3>
+            <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
             <div class="products">
-                Produtos
                 <div class="product">
-                    Bife com batata
+                    <p>Bife com batata</p>
+                    <p class="price" name="price" id="1"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -31,7 +32,8 @@
                     </div>
                 </div>
                 <div class="product">
-                    Coxa de frango Crocante
+                    <p>Coxa de frango Crocante</p>
+                    <p class="price" name="price" id="2"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -44,7 +46,8 @@
                     </div>
                 </div>
                 <div class="product">
-                    Carne de Panela
+                    <p>Carne de Panela</p>
+                    <p class="price" name="price" id="3"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -59,11 +62,12 @@
             </div>
         </div>
         <div class="category">
-            Categoria 2
+            <h3>Acompanhamentos</h3>
+            <p>Porções para uma pessoa</p>
             <div class="products">
-                Produtos
                 <div class="product">
-                    Farofa
+                    <p>Farofa</p>
+                    <p class="price" name="price" id="4"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -76,7 +80,8 @@
                     </div>
                 </div>
                 <div class="product">
-                    Salada
+                    <p>Salada</p>
+                    <p class="price" name="price" id="5"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -89,7 +94,8 @@
                     </div>
                 </div>
                 <div class="product">
-                    Torresmo
+                    <p>Torresmo</p>
+                    <p class="price" name="price" id="6"></p>
                     <div class="quantity buttons_added">
                         <input type="button" value="-" class="minus">
                         <input type="number"
@@ -104,10 +110,10 @@
             </div>
         </div>
         <div class="data">
-            Dados Pessoais
-            <input type="text" id="name">
-            <input type="tel" id="phone">
-            <input type="email" id="email">
+            <h3>Dados Pessoais</h3>
+            <input type="text" placeholder="Digite seu nome" id="name">
+            <input type="tel" placeholder="Digite seu telefone" id="phone">
+            <input type="email" placeholder="Digite seu email" id="email">
         </div>
         <button onclick="calc()">Calcular</button>
         <div class="result" id="result">
